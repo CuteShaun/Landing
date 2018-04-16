@@ -1,0 +1,17 @@
+.popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5000;
+  height: 100%;
+  width: 100%;
+  background-color: rgba($color-black, .9);
+
+  &__content {
+    position: absolute;
+    height: 50rem;
+  }
+
+
+
+}

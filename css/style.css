@@ -6,10 +6,12 @@
   box-sizing: inherit; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  height: 100%; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  height: 100%; }
 
 @keyframes moveInLeft {
   0% {
@@ -639,6 +641,18 @@ body {
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
   transform: rotate(-135deg);
   top: 0; }
+
+.popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5000;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9); }
+  .popup__content {
+    position: absolute;
+    height: 50rem; }
 
 .section-about {
   background-color: #f7f7f7;
