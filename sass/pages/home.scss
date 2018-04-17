@@ -12,7 +12,7 @@
     to right bottom, 
     rgba($color-primary-light, 0.8), 
     rgba($color-primary-dark, 0.8)),
-    url("../img/nat-4.jpg");
+    url("../img_min/nat-4-min.jpg");
   background-size: cover;
   transform: skewY(-7deg);
 
@@ -43,7 +43,7 @@
   linear-gradient(105deg, 
   rgba($color-white, .9) 50%,
   transparent 50%), 
-  url(../img/nat-10.jpg);
+  url(../img_min/nat-10-min.jpg);
   background-size: 100%;
   border-radius: $default-border-radius;
   box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
