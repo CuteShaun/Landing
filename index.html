@@ -7,13 +7,13 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/icon-font.css">
+    <!-- <link rel="stylesheet" href="css/icon-font.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
     <title>Natours | Exciting tours for adventurous people</title>
-    
-  
+
+
 </head>
 
 <body>
@@ -96,9 +96,25 @@
 
                 <div class="col-1-of-2">
                     <div class="composition">
-                        <img src="img_min/nat-1-large-min.jpg" alt="Photo1" class="composition__photo composition__photo--p1">
-                        <img src="img_min/nat-2-large-min.jpg" alt="Photo2" class="composition__photo composition__photo--p2">
-                        <img src="img_min/nat-3-large-min.jpg" alt="Photo3" class="composition__photo composition__photo--p3">
+
+                        <img srcset="img_min/nat-1-min.jpg 300w, img_min/nat-1-large-min.jpg 1000w" 
+                        sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                        alt="Photo"
+                        class="composition__photo composition__photo--p1"
+                        src="img_min/nat-1-large-min.jpg">
+
+                        <img srcset="img_min/nat-2-min.jpg 300w, img_min/nat-2-large-min.jpg 1000w" 
+                        sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                        alt="Photo"
+                        class="composition__photo composition__photo--p2"
+                        src="img_min/nat-2-large-min.jpg">
+
+                        <img srcset="img_min/nat-3-min.jpg 300w, img_min/nat-3-large-min.jpg 1000w" 
+                        sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                        alt="Photo"
+                        class="composition__photo composition__photo--p3"
+                        src="img_min/nat-3-large-min.jpg">
+ 
                     </div>
                 </div>
             </div>
@@ -226,7 +242,7 @@
                                     <p class="card__price-only">Only</p>
                                     <p class="card__price-value">$497</p>
                                 </div>
-                                <a href="#popup"  class="btn btn--white">Book now!</a>
+                                <a href="#popup" class="btn btn--white">Book now!</a>
                             </div>
                         </div>
 
@@ -373,7 +389,11 @@
     </main>
     <footer class="footer">
         <div class="footer__logo-box">
-            <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
+
+            <picture class="footer__logo">
+                <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width: 37.5em)">
+                <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Full logo" class="footer__logo">
+            </picture>
         </div>
         <div class="row">
             <div class="col-1-of-2">
