@@ -24,13 +24,5 @@ $(document).ready(function() {
     $("body,html").animate({ scrollTop: top }, 150000);
 
     divLocation = $("#myDiv").offset();
-
-    $("#myDiv").animate(
-      {
-        top: divLocation.top,
-        left: divLocation.left
-      },
-      200
-    );
   });
 });
