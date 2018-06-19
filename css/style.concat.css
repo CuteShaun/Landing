@@ -487,7 +487,7 @@
         .composition__photo--p2 {
           top: -1rem;
           transform: scale(1.3);
-          z-index: 100; } }
+          z-index: 11; } }
     .composition__photo--p3 {
       left: 20%;
       top: 10rem; }
@@ -500,7 +500,11 @@
       outline: 1.5rem solid #72cbe7;
       transform: scale(1.05);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
-      z-index: 11; }
+      z-index: 12; }
+      @media only screen and (max-width: 37.5em) {
+        .composition__photo:hover {
+          outline: none;
+          transform: scale(1.35); } }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95) translateY(-0.5rem); }
 

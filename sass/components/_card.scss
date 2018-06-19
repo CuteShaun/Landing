@@ -68,30 +68,27 @@
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
     &--1 {
-      background-image: linear-gradient(
-          to right bottom,
-          $color-secondary-light,
-          $color-secondary
-        ),
-        url(../img_min/nat-5-min.jpg);
+      background-image: url(../img_min/nat-5-min.jpg);
+      // background-image: linear-gradient(
+      //     to right bottom,
+      //     $color-secondary-light,
+      //     $color-secondary
+      //   ),
+      //   url(../img_min/nat-5-min.jpg);
     }
 
     &--2 {
-      background-image: linear-gradient(
-          to right bottom,
-          $color-primary-light,
-          $color-primary-dark
-        ),
-        url(../img_min/nat-6-min.jpg);
+      background-image: url(../img_min/nat-6-min.jpg);
+      // background-image: linear-gradient(
+      //     to right bottom,
+      //     $color-primary-light,
+      //     $color-primary-dark
+      //   ),
+      //   url(../img_min/nat-6-min.jpg);
     }
 
     &--3 {
-      background-image: linear-gradient(
-          to right bottom,
-          $color-tertiary-light,
-          $color-tertiary
-        ),
-        url(../img_min/nat-7-min.jpg);
+      background-image: url(../img_min/nat-7-min.jpg);
     }
   }
 
