@@ -63,7 +63,7 @@
     transform: scale(0.95) translateY(-0.5rem); }
 
 .feature-box {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: white;
   font-size: 1.5rem;
   text-align: center;
   border-radius: 3px;

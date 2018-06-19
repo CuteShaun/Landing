@@ -7,7 +7,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/icon-font.css"> -->
-    <link rel="stylesheet" href="css/style.prefix.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
         crossorigin="anonymous"></script>
@@ -189,36 +189,45 @@
         }
 
         .u-center-text {
-            text-align: center!important
+            text-align: center !important
         }
 
         .u-margin-bottom-big {
-            margin-bottom: 8rem!important
+            margin-bottom: 8rem !important
         }
 
         @media only screen and (max-width: 56.25em) {
             .u-margin-bottom-big {
-                margin-bottom: 5rem!important
+                margin-bottom: 5rem !important
             }
         }
 
         .u-margin-bottom-medium {
-            margin-bottom: 4rem!important
+            margin-bottom: 4rem !important
         }
 
         @media only screen and (max-width: 56.25em) {
             .u-margin-bottom-medium {
-                margin-bottom: 3rem!important
+                margin-bottom: 3rem !important
             }
         }
 
         .u-margin-bottom-small {
-            margin-bottom: 1.5rem!important
+            margin-bottom: 1.5rem !important
         }
 
         .u-margin-top-big {
-            margin-top: 8rem!important
+            margin-top: 8rem !important
         }
+
+        .u-padding-top-small {
+            padding-top: 8rem !important;
+        }
+
+         .u-padding-bottom-small {
+            padding-bottom: 8rem !important;
+        }
+
 
         .btn,
         .btn:visited,
@@ -738,7 +747,7 @@
     </header>
 
     <main>
-        <section class="section-about" id="section-about">
+        <section class="section-about u-padding-bottom-small" id="section-about">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Exciting tours for adventurous people
@@ -757,9 +766,53 @@
                         id ut amet qui necessitatibus.
                     </p>
 
-                    <a href="#" class="btn-text">
+
+                    <!-- <a href="#" class="btn-text">
                         Learn more &rarr;
-                    </a>
+                    </a> -->
+
+
+                </div>
+
+                <div class="col-1-of-2">
+                    <div class="composition">
+
+                        <img srcset="img_min/nat-1-min.jpg 300w, img_min/nat-1-large-min.jpg 1000w" sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                            alt="Photo" class="composition__photo composition__photo--p1" src="img_min/nat-1-large-min.jpg">
+
+                        <img srcset="img_min/nat-2-min.jpg 300w, img_min/nat-2-large-min.jpg 1000w" sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                            alt="Photo" class="composition__photo composition__photo--p2" src="img_min/nat-2-large-min.jpg">
+
+                        <img srcset="img_min/nat-3-min.jpg 300w, img_min/nat-3-large-min.jpg 1000w" sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                            alt="Photo" class="composition__photo composition__photo--p3" src="img_min/nat-3-large-min.jpg">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-about u-padding-top-small" id="section-about">
+            <div class="u-center-text u-margin-bottom-big">
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-2">
+
+                    <h3 class="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
+                    <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure aliquam nisi debitis ipsum unde, exercitationem
+                        id ut amet qui necessitatibus, fugit cupiditate, corporis eveniet pariatur at maxime asperiores molestiae
+                        excepturi?
+                    </p>
+
+                    <h3 class="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
+                    <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure aliquam nisi debitis ipsum unde, exercitationem
+                        id ut amet qui necessitatibus.
+                    </p>
+
+                    <!-- <a href="#" class="btn-text">
+                        Learn more &rarr;
+                    </a> -->
+
 
                 </div>
 
@@ -786,7 +839,7 @@
                 <div class="col-1-of-4">
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-world"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Отель с собственным садом</h3>
                         <p class="feature-box__text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aspernatur a. Unde eum eius accusamus, illo soluta architecto.
                         </p>
@@ -795,7 +848,7 @@
                 <div class="col-1-of-4">
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-compass"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Meet Nature</h3>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Нестандартные Экскурсии</h3>
                         <p class="feature-box__text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aspernatur a. Unde eum eius accusamus, illo soluta architecto.
                         </p>
@@ -804,7 +857,7 @@
                 <div class="col-1-of-4">
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-map"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Опытный гид</h3>
                         <p class="feature-box__text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aspernatur a. Unde eum eius accusamus, illo soluta architecto.
                         </p>
@@ -813,7 +866,7 @@
                 <div class="col-1-of-4">
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-heart"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small">Live a healthier life</h3>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Погружение в культуру</h3>
                         <p class="feature-box__text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aspernatur a. Unde eum eius accusamus, illo soluta architecto.
                         </p>
