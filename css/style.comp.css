@@ -147,7 +147,7 @@
     .card__heading-span--3 {
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
   .card__details {
-    padding: 3rem; }
+    padding: 1.5rem; }
     .card__details ul {
       width: 80%;
       margin: 0 auto; }
